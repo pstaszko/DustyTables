@@ -1,17 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
 <Project Sdk="Microsoft.NET.Sdk">
-    <PropertyGroup>
-        <OutputType>Exe</OutputType>
-        <TargetFramework>net5.0</TargetFramework>
-    </PropertyGroup>
-    <ItemGroup>
-        <Compile Include="Tests.fs" />
-        <Compile Include="Main.fs" />
-    </ItemGroup>
-    <ItemGroup>
-        <ProjectReference Include="../DustyTables/DustyTables.fsproj" />
-    </ItemGroup>
-    <ItemGroup>
-        <PackageReference Include="Expecto" Version="9.0.0" />
-        <PackageReference Include="ThrowawayDb" Version="1.1.0" />
-    </ItemGroup>
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="Tests.fs" />
+    <Compile Include="Main.fs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="../DustyTables/DustyTables.fsproj" />
+  </ItemGroup>
+  <Import Project="..\.paket\Paket.Restore.targets" />
 </Project>

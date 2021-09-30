@@ -3,6 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.6.30114.105
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".paket", ".paket", "{378D7C32-4E6E-42F5-8063-584EC3153481}"
+	ProjectSection(SolutionItems) = preProject
+		paket.dependencies = paket.dependencies
+	EndProjectSection
+EndProject
 Project("{6EC3EE1D-3C4E-46DD-8F32-0CC8E7565705}") = "DustyTables", "DustyTables\DustyTables.fsproj", "{1F2648CD-AB52-4CE2-B112-57F891692BDF}"
 EndProject
 Project("{6EC3EE1D-3C4E-46DD-8F32-0CC8E7565705}") = "DustyTables.Tests", "DustyTables.Tests\DustyTables.Tests.fsproj", "{298F9CA1-1887-4D01-9F4E-20084EBBF702}"
