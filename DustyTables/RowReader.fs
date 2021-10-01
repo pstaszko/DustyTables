@@ -66,7 +66,7 @@ type RowReader(reader: SqlDataReader) =
         | false, _ -> failToRead column "tinyint"
 
     member this.int16(columnIndex: int) =
-        if types.[columnIndex] = "tinyint" 
+        if types.[columnIndex] = "tinyint"
         then int16 (reader.GetByte(columnIndex))
         else reader.GetInt16(columnIndex)
 

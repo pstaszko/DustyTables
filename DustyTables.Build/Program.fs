@@ -50,7 +50,7 @@ let publish() =
 let main argv =
     try
         match argv with
-        | [| |] -> build() 
+        | [| |] -> build()
         | [| "test" |] -> build(); test()
         | [| "publish" |] -> build(); test(); publish();
         | _ -> ()
