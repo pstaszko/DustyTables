@@ -22,6 +22,7 @@
     <Tailcalls>true</Tailcalls>
   </PropertyGroup>
   <ItemGroup>
+    <None Include="paket.template" />
     <None Include="paket.references" />
     <Compile Include="RowReader.fs" />
     <Compile Include="Sql.fs" />
