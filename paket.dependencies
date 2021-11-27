@@ -1,6 +1,7 @@
-source C:\nuget\
-source "C:\Program Files (x86)\Microsoft SDKs\NuGetPackages\"
+#source C:\nuget\
+#source "C:\Program Files (x86)\Microsoft SDKs\NuGetPackages\"
 source https://api.nuget.org/v3/index.json
+storage none
 
 nuget Expecto 9.0.0
 nuget Fake.Core.Environment 5.20.3
